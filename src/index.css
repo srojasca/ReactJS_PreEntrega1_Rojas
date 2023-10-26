@@ -1,0 +1,46 @@
+nav{
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #332C38;
+  width: 100%;
+}
+
+#Bname{
+  color:#CDC6B1;
+  font-family:cursive;
+  font-size: 25px;
+  align-items: center;
+}
+
+div{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #332C38;
+}
+
+ul{
+  width: 70%;
+  text-align: right;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+a{
+  text-decoration: none;
+  color: #E3C5D2;
+}
+
+#saludo{
+  color: #E3C5D2;
+  text-align: center;
+  width:5%;
+  justify-content: center;
+  padding-top: 1.4%;
+}
