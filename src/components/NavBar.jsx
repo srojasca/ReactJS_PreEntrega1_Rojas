@@ -1,10 +1,10 @@
 import {CartWidget} from './CartWidget';
-// import Carrito from '../assets/carrito.png';
+import logoEmpresa from '../assets/logo.png';
 
 export const NavBar = () => {
     return (
         <nav>
-            {/* <div><img src="../assets/logo.jpg" alt="Logo" /></div> */}
+            <div><img src={logoEmpresa} width='70px' height='70px' /></div>
             <div id="Bname">My Company</div>
             <ul>
                 <li><a href="">Faldas</a></li>

@@ -1,5 +1,5 @@
-import logoEmpresa from '../assets/logo.jpg'
+import logoCarrito from '../assets/carro.png'
 
 export const CartWidget = () => {
-    return (0)
+    return (<img src={logoCarrito} width='45px' height='45px' />)
 };
